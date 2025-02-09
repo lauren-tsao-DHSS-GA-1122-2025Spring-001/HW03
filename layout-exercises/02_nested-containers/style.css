@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+}
+
+.containers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+
+.container-one {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.container-two, .container-three, .container-four {
+    width: 50%;
+    height: 50%;
+}
+
+.container-two {
+    background-color: magenta;
+}
+
+
+.container-three {
+    background-color: yellow
+
+}
+
+.container-four {
+    background-color: cyan;
+}
